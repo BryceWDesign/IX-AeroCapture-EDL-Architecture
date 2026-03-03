@@ -1,0 +1,38 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Treat common binary assets as binary (no diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.7z  binary
+*.gz  binary
+*.bz2 binary
+*.xz  binary
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Make markdown diffs cleaner
+*.md  text diff=markdown
+*.txt text
+
+# Common code files
+*.py  text
+*.js  text
+*.ts  text
+*.json text
+*.yml text
+*.yaml text
+*.toml text
+*.ini text
+*.cfg text
+*.sh  text
+*.bat text
